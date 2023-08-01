@@ -42,11 +42,9 @@ function renderizarPokemons (){
 
         const buyButton = document.createElement("button");
         buyButton.textContent ="Comprar";
-        // buyButton.id = "buy";
+        buyButton.id = "buy";
         
         
-        
-
         buyButton.addEventListener("click", (event)=>{
             event.preventDefault()
             console.log();
